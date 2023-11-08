@@ -1,0 +1,21 @@
+body {
+  background-color: #f5f5dc; /* Beige claro como fondo del cuerpo */
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.9); /* Fondo blanco con ligera transparencia (puedes ajustar la transparencia cambiando el valor 0.9) */
+  padding: 20px;
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+h1.texto-rosado {
+  color: #fc1e75; /* Color rosado para "M & A Story" */
+}
+
+h1 {
+  color: white; /* Color blanco para el título "M & A Story" */
+}
+
+.nombre-ana {
+  color: turquoise; /* Color turquesa para el nombre "Ana" */
+}
