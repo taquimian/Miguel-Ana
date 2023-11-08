@@ -1,21 +1,108 @@
+/* Estilos generales */
 body {
-  background-color: #f5f5dc; /* Beige claro como fondo del cuerpo */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
 }
 
 .container {
-  background: rgba(255, 255, 255, 0.9); /* Fondo blanco con ligera transparencia (puedes ajustar la transparencia cambiando el valor 0.9) */
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 20px;
-  border-radius: 10px; /* Bordes redondeados */
+  background-color: #fff;
 }
 
-h1.texto-rosado {
-  color: #fc1e75; /* Color rosado para "M & A Story" */
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 767px) {
+  .container {
+    padding: 10px;
+  }
 }
 
+/* Estilos para encabezados */
 h1 {
-  color: white; /* Color blanco para el título "M & A Story" */
+  font-size: 36px;
+  color: #333;
 }
 
-.nombre-ana {
-  color: turquoise; /* Color turquesa para el nombre "Ana" */
+h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Estilos para enlaces */
+a {
+  text-decoration: none;
+  color: #0074d9;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Estilos para botones */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0074d9;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para imágenes responsivas */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Estilos para el menú de navegación */
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+  .navbar ul {
+    text-align: center;
+    display: block;
+  }
+
+  .navbar li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+/* Estilos para secciones */
+.section {
+  padding: 20px;
+}
+
+/* Estilos para pies de página */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
 }
