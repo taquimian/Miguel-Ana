@@ -7,12 +7,15 @@ body {
   color: #333;
 }
 
+/* Estilos para el recuadro negro */
 .container {
-  max-width: 1200px;
+  max-width: 2200px;
   margin: 0 auto;
-  padding: 20px;
-  background-color: #fff;
+  padding: 10px;
+  background-color: #000;
+  box-shadow: 0 0 0 2px white, 0 0 0 4px #eb1c91; /* Agrega un contorno blanco y un contorno rosa al recuadro */
 }
+
 
 /* Estilos para pantallas pequeñas (móviles) */
 @media (max-width: 767px) {
@@ -23,13 +26,20 @@ body {
 
 /* Estilos para encabezados */
 h1 {
-  font-size: 36px;
-  color: #333;
+  font-size: 60px;
+  color: #eb1c91; /* Color rosa (#eb1c91) */
+  font-weight: 1200; /* Hace que el texto sea más grueso (700 es un valor común para negritas) */
+  -webkit-text-stroke: 1.5px white; /* Agrega un contorno blanco de 2px (prefijo para navegadores webkit) */
+  text-stroke: 2px white; /* Agrega un contorno blanco de 2px (estándar) */
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 60px;
   color: #333;
+}
+
+.nombre-ana {
+  color: turquoise; /* Color turquesa para el nombre "Ana" */
 }
 
 /* Estilos para enlaces */
